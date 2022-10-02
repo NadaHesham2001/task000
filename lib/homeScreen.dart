@@ -29,8 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('task'),
-        backgroundColor: Colors.cyanAccent[100],
+        title: Text('Tasks'),
+        backgroundColor:Colors.black12,
       ),
       body: ListView(
         children: [
